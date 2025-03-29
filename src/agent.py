@@ -88,7 +88,7 @@ def generate_research_purpose(user_query: str) -> str:
         "Use the following criteria:\n"
         "- The research purpose must start with 'To'.\n"
         "- The research purpose must be a single sentence.\n"
-        "- For example, 'To investigate the efficacy of X compared to Y in treating Y.'\n"
+        "- For example, 'To investigate the efficacy of X compared to Y in treating Z.'\n"
         "- If the query includes specific conditions (e.g., study designs, treatments, or patient populations), incorporate them appropriately.\n"
         "- Only rewrite the research purpose if absolutely necessary.\n"
         "- Enclose the research purpose in triple backticks. Do not include extra text."
